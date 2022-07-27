@@ -1,15 +1,47 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
 }
 
-.row {
-    display:flex;
+/* Smooth Scrolling effect */
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Header  */
+header {
+    justify-content: space-between;
+    padding-left: 25px;
+    margin-bottom: 25px;
+    background-color: var(--header-footer-background-color); 
+  }
+   
+  header nav h1 {
+    background: #08597d;
+    color: white
 }
 
-column {
-    justify-items: center;
+
+header nav a {
     padding: 5px;
+    margin: auto;
+}   
+
+/* Grid for sport boxes */
+.sport-grid-top {
+    width:100%;
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
+
+.sport-grid-bottom {
+  
+    width:100%;
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
