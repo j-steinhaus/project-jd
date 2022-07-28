@@ -1,15 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./highscores.html">
-    <link href="./landing_page.html">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./highscores.html" />
+    <link href="./landing_page.html" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Bet</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <h1>Bet</h1>
+        <a href="./landing_page.html">Home</a>
+        <a href="./games.html">Sports Games</a>
+        <a href="./highscores.html">High Scores</a>
+      </nav>
+    </header>
+    <section>
+      <div class="sport-grid-top">
+        <div id="baseball">
+          <img src="./assets/images/MLB.jpg" style="width: 25%" />
+          <div
+            onclick="projectClicked('baseball')"
+            target="_blank"
+            style="width: 25%"
+            class="container-baseball"
+          ></div>
+          <span class="background">
+            <h3>Baseball</h3>
+          </span>
+
+        <div id="nfl">
+            <img src="./assets/images/NFL.jpg" style="width: 25%" />
+            </div>
+            <div
+            onclick="projectClicked('nfl')"
+            target="_blank"
+            style="width: 25%"
+            class="container-nfl"
+          ></div>
+          <span class="background">
+            <h3>NFL</h3>
+          </span>
+
+        <div id="tennis"></div>
+            <img src="./assets/images/Tennis.webp" style="width: 25%" />
+            </div>
+            <div
+            onclick="projectClicked('tennis')"
+            target="_blank"
+            style="width: 25%"
+            class="container-tennis"
+          ></div>
+          <span class="background">
+            <h3>Tennis</h3>
+          </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="sport-grid-bottom">
+            <div id="nhl">
+              <img src="./assets/images/NHL.jpeg" style="width: 25%" />
+              <div
+                onclick="projectClicked('nhl')"
+                target="_blank"
+                style="width: 25%"
+                class="container-nhl"
+              ></div>
+              <span class="background">
+                <h3>NHL</h3>
+              </span>
+              <div id="golf">
+                <img src="./assets/images/Golf.jpeg" style="width: 25%" />
+                <div
+                  onclick="projectClicked('golf')"
+                  target="_blank"
+                  style="width: 25%"
+                  class="container-golf"
+                ></div>
+                <span class="background">
+                  <h3>Golf</h3>
+                </span>
+                <div id="olympic">
+                    <img src="./assets/images/Olympic.jpg" style="width: 25%" />
+                    <div
+                      onclick="projectClicked('olympic')"
+                      target="_blank"
+                      style="width: 25%"
+                      class="container-olympic"
+                    ></div>
+                    <span class="background">
+                      <h3>Olympic</h3>
+                    </span>
+    </section>
+  </body>
+
+  <!-- Footer  -->
+  <footer class="footer">
+    <h4>Made with 🖤 by Drew & Jess</h4>
+    <p>&copy; Us.</p>
+  </footer>
 </html>
