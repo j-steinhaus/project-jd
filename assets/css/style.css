@@ -1,150 +1,107 @@
 /* landing page css */
 * {
     box-sizing: border-box;
+    margin: auto;
+    
 }
 
 /* Smooth Scrolling effect */
 html {
     scroll-behavior: smooth;
+    background-image: linear-gradient(180deg, #08597D, #ECF770
+    );
+
   }
 
-/* landing page Header  */
-header {
-    justify-content: space-between;
-    padding-left: 25px;
-    margin-bottom: 25px;
-    background-color: var(--header-footer-background-color); 
-  }
-   
+/* landing page Header  */   
   header nav h1 {
-    background: #08597d;
-    color: white
+    text-decoration: underline;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
 }
 
 
 header nav a {
-    padding: 5px;
-    margin: auto;
+    padding: 10px;
+    display: flex; 
+    justify-content: center;
+    color:hsl(206, 17%, 28%);
+    
 }   
+
+h1 { 
+  text-align: center;
+}
 
 h2 {
     text-align: center;
+    padding-top: 40px;
 }
 
 h2 p {
     text-align: center;
-}
-/* landing page Grid for sport boxes */
-.sport-grid-top {
-    width:100%;
-    display: flex; 
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+    width: 80px;
 }
 
-.sport-grid-bottom {
+h3 {
+  text-align: center;
+}
+
+header2 {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: hsl(206, 17%, 28%);
+}
+.gif {
+  display: flex; 
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.textBox {
+  width: 600px;
+  text-align: center;
+  margin-top: 60px;
   
-    width:100%;
-    display: flex; 
-    flex-direction: column;
-    text-align: center;
 }
 
+.footer { 
+  text-align: center;
+  margin-top: 250px;
+} 
 
-/* highscore css  */
-.wrapper {
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+
+/* html game css  */
   
-  header2 {
-    text-align: center;
+  .startBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    font-size: 25px;
     padding: 20px;
-    padding-top: 0px;
-    color: hsl(206, 17%, 28%);
-  }
-  
-  .card {
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 5px;
-    border-width: 1px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-    color: hsl(206, 17%, 28%);
-    font-size: 18px;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 30px 40px;
-  }
-  
-  .card-header::after {
-    content: " ";
-    display: block;
-    width: 100%;
-    background: #e7e9eb;
-    height: 2px;
-  }
-  
-  .card-body {
-    min-height: 100px;
-  }
-  
-  .card-footer {
-    text-align: center;
-  }
-  
-  .card-footer::before {
-    content: " ";
-    display: block;
-    width: 100%;
-    background: #e7e9eb;
-    height: 2px;
-  }
-  
-  .card-footer::after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
-  
-  .btn {
+    width: 25%;
+    color: #3cc893;
     border: none;
-    background-color: rgb(12, 70, 132);
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-      0px;
-    color: hsl(0, 0%, 100%);
-    display: inline-block;
-    font-size: 22px;
-    line-height: 22px;
-    margin: 16px 16px 16px 20px;
-    padding: 14px 34px;
-    text-align: center;
-    cursor: pointer;
+    background-color: #ecf770;
+    box-shadow: 3px 3px #3cc893;
+    
   }
 
-  .btn2 {
-    border: none;
-    background-color: rgb(12, 70, 132);
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-      0px;
-    color: hsl(0, 0%, 100%);
-    display: inline-block;
-    font-size: 22px;
-    line-height: 22px;
-    margin: 16px 16px 16px 20px;
-    padding: 14px 34px;
-    text-align: center;
-    cursor: pointer;
+
+
+
+  /* hover effects  */
+.startBtn:hover {
+  background-color: #006689;
+  cursor: pointer;
+  }
+
+  header nav a:hover {
+    color: #ECF770;
+    
   }
   
-  button[disabled] {
-    cursor: default;
-    background: #c0c7cf;
-  }
-  
-  .float-right {
-    float: right;
-  }

@@ -7,116 +7,33 @@
     <link href="./highscores.html" />
     <link href="./landing_page.html" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Bet</title>
+    <title>Owen Wilson Game</title>
   </head>
+
+  <!-- body  -->
   <body>
+
+    <!-- header  -->
     <header class="header">
       <nav>
-        <h1>Bet</h1>
+        <h1>Owen Wilson Game</h1>
         <a href="./landing_page.html">Home</a>
-        <a href="./games.html">Sports Games</a>
-        <a href="./highscores.html">High Scores</a>
+        <a href="./games.html">Wilson Game</a>
+        <!-- <a href="./highscores.html">High Scores</a> -->
       </nav>
     </header>
     <section>
-      <div class="sport-grid-top">
-        <div id="baseball">
-            <h3>Baseball</h3>
-          <img src="./assets/images/MLB.jpg" style="width: 25%" />
-          <div
-            onclick="projectClicked('baseball')"
-            target="_blank"
-            style="width: 25%"
-            class="container-baseball"
-          ></div>
-          <span class="background">
-            <button id="generate" class="btn">Top</button>
-            <button id="generate" class="btn2">Bottom</button>
-          </span>
-
-        <div id="nfl">
-            <h3>NFL</h3>
-            <img src="./assets/images/NFL.jpg" style="width: 25%" />
-            </div>
-            <div
-            onclick="projectClicked('nfl')"
-            target="_blank"
-            style="width: 25%"
-            class="container-nfl"
-          ></div>
-          <span class="background">
-            <div class="card-footer">
-                <button id="generate" class="btn">Top</button>
-                <button id="generate" class="btn2">Bottom</button>
-              </div>
-          </span>
-
-        <div id="tennis"></div>
-        <h3>Tennis</h3>
-            <img src="./assets/images/Tennis.webp" style="width: 25%" />
-            </div>
-            <div
-            onclick="projectClicked('tennis')"
-            target="_blank"
-            style="width: 25%"
-            class="container-tennis"
-          ></div>
-          <span class="background">
-            <button id="generate" class="btn">Top</button>
-            <button id="generate" class="btn2">Bottom</button>
-          </span>
-          </div>
-        </div>
-      </div>
+      <div id="box"></div>
+        <form>
+          <button id="playBtn" type="submit" class="startBtn">Play!</button>
+        <form>
     </section>
-
-    <section>
-        <div class="sport-grid-bottom">
-            <div id="nhl">
-                <h3>NHL</h3>
-              <img src="./assets/images/NHL.jpeg" style="width: 25%" />
-              <div
-                onclick="projectClicked('nhl')"
-                target="_blank"
-                style="width: 25%"
-                class="container-nhl"
-              ></div>
-              <span class="background">
-                <button id="generate" class="btn">Top</button>
-                <button id="generate" class="btn2">Bottom</button>
-              </span>
-              <div id="golf">
-                <h3>Golf</h3>
-                <img src="./assets/images/Golf.jpeg" style="width: 25%" />
-                <div
-                  onclick="projectClicked('golf')"
-                  target="_blank"
-                  style="width: 25%"
-                  class="container-golf"
-                ></div>
-                <span class="background">
-                  <button id="generate" class="btn">Top</button>
-                  <button id="generate" class="btn2">Bottom</button>
-                </span>
-                <div id="olympic">
-                    <h3>Olympic</h3>
-                    <img src="./assets/images/Olympic.jpg" style="width: 25%" />
-                    <div
-                      onclick="projectClicked('olympic')"
-                      target="_blank"
-                      style="width: 25%"
-                      class="container-olympic"
-                    ></div>
-                    <span class="background">
-                    <button id="generate" class="btn">Top</button>
-                    <button id="generate" class="btn2">Bottom</button>
-                    </span>
-    </section>
-  </body>
 
   <!-- Footer  -->
   <footer class="footer">
     <h4>Made with 🖤 by Drew & Jess</h4>
     <p>&copy; Us.</p>
   </footer>
+  <script src="./assets/js/app.js"></script>
+</body>
 </html>
