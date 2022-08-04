@@ -1,34 +1,29 @@
-/* landing page css */
 * {
-    box-sizing: border-box;
-    margin: auto;
-    
+  box-sizing: border-box;
+  margin: auto;
 }
 
-/* Smooth Scrolling effect */
 html {
-    scroll-behavior: smooth;
-    background-image: linear-gradient(180deg, #08597D, #ECF770
-    );
-
-  }
-
-/* landing page Header  */   
-  header nav h1 {
-    text-decoration: underline;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 40px;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(180deg, #08597D, #ECF770);
+  height: 150%;
 }
 
+/* landing page css */
+header nav h1 {
+  text-decoration: underline;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 40px;
+}
 
 header nav a {
-    padding: 10px;
-    display: flex; 
-    justify-content: center;
-    color:hsl(206, 17%, 28%);
-    
+  padding: 10px;
+  display: flex; 
+  justify-content: center;
+  color:hsl(206, 17%, 28%);
+  
 }   
 
 h1 { 
@@ -73,35 +68,33 @@ header2 {
   margin-top: 250px;
 } 
 
-
 /* html game css  */
   
-  .startBtn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    font-size: 25px;
-    padding: 20px;
-    width: 25%;
-    color: #3cc893;
-    border: none;
-    background-color: #ecf770;
-    box-shadow: 3px 3px #3cc893;
-    
-  }
-
-
-
-
-  /* hover effects  */
-.startBtn:hover {
-  background-color: #006689;
-  cursor: pointer;
-  }
-
-  header nav a:hover {
-    color: #ECF770;
-    
-  }
+.startBtn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  font-size: 25px;
+  padding: 20px;
+  width: 25%;
+  color: #3cc893;
+  border: none;
+  background-color: #ecf770;
+  box-shadow: 3px 3px #3cc893;
   
+}
+
+
+
+
+/* hover effects  */
+.startBtn:hover {
+background-color: #006689;
+cursor: pointer;
+}
+
+header nav a:hover {
+  color: #ECF770;
+  
+}
