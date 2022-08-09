@@ -1,5 +1,5 @@
 # Customer Request
-AS A obsessed fan I WANT to see how many times Owen Wilson does his signature saying SO THAT I can be all knowing.
+AS AN obsessed fan I WANT to see how many times Owen Wilson does his signature saying SO THAT I can be all knowing.
 
 # Deployed Url 
 https://j-steinhaus.github.io/project-jd/
