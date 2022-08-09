@@ -88,6 +88,7 @@ header2 {
 #movie-poster {
   display: flex; 
   justify-content: center;
+  padding-top: 50px;
 }
 
 #player-1 {
@@ -103,7 +104,6 @@ header2 {
   padding: 30px 0px;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 
