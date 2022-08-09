@@ -5,14 +5,10 @@
 
 html {
   scroll-behavior: smooth;
-  border: 5px white;
   background-image: linear-gradient(180deg, #08597D, #ECF770);
-  height: 150%;
   background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center center;
-        filter: drop-shadow(0 0 1px white);
-
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 /* landing page css */
@@ -92,9 +88,7 @@ header2 {
 }
 
 #movie-poster {
-  display: flex; 
-  justify-content: center;
-  padding-top: 50px;
+  padding-left: 225px;
 }
 
 #player-1 {
@@ -104,13 +98,26 @@ header2 {
  
 }
 
-#player-2 {
+#submit {
+  display: flex; 
+  justify-items: center;
+
+}
+
+.progress {
+  display: flex; 
+  justify-items: center;
+
+}
+
+/* #player-2 {
   display: flex;
   justify-items: center;
   padding: 30px 0px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
+
+} */
 
 
 
