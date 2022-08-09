@@ -57,7 +57,7 @@ playBtn.addEventListener("click", () => {
 function startGame() {
   progressBar.style.display = "block";
   playerOne.style.display = "block";
-  playerTwo.style.display = "block";
+  // playerTwo.style.display = "block";
   image.style.display = "block";
   title.style.display = "block";
 
