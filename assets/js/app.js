@@ -90,6 +90,7 @@ function startGame() {
         answer.textContent = `${data[0].total_wows_in_movie}`;
         correctAnswer = data[0].total_wows_in_movie;
         answer.style.display = "none";
+        console.log(correctAnswer);
         answerBox.append(answer);
         answer.style.color = "brown";
         answer.style.fontSize = "80px";
@@ -115,7 +116,7 @@ function endGame() {
   console.log("high score:", score);
   location.reload();
   playerOne.style.display = "none";
-  playerTwo.style.display = "none";
+  //playerTwo.style.display = "none";
   for (let index = 0; index < timeArray.length; index++) {
     window.clearInterval(timeArray[index]);
     console.log(timeArray[index]);
