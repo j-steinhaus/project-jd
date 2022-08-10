@@ -6,7 +6,7 @@ var questionText = document.querySelector(".question");
 var image = document.getElementById("movie-poster");
 var title = document.getElementById("movie-title");
 var playerOne = document.getElementById("player-1");
-var playerTwo = document.getElementById("player-2");
+// var playerTwo = document.getElementById("player-2");
 var answerBox = document.getElementById("answer");
 
 var correctAnswer;
@@ -43,7 +43,7 @@ submitButton.addEventListener("click", function () {
 
 playBtn.addEventListener("click", startGame);
 playerOne.style.display = "none";
-playerTwo.style.display = "none";
+// playerTwo.style.display = "none";
 
 playBtn.addEventListener("click", () => {
   playBtn.style.display = "none";
@@ -110,13 +110,13 @@ function startGame() {
     });
 }
 
-// ! endGame function to restart game and time array. saves to lacal storage. 
+// ! endGame function to restart game and time array. saves to lacal storage.
 function endGame() {
   localStorage.setItem("score", score);
   console.log("high score:", score);
   location.reload();
   playerOne.style.display = "none";
-  //playerTwo.style.display = "none";
+
   for (let index = 0; index < timeArray.length; index++) {
     window.clearInterval(timeArray[index]);
     console.log(timeArray[index]);
